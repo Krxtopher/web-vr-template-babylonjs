@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>BabylonJS VR Starter Project</title>
+    <style>
+      /* The minimal style rules below are used until the fill index.css styles
+      are loaded via JavaScript. */
+      #app3D {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app3D" class="loading">
+      <!-- A layer for rendering the 3D scene -->
+      <canvas id="renderCanvas"></canvas>
+      <!-- A layer for displaying 2D U -->
+      <div id="ui2D">
+        <!-- The "loading" screen -->
+        <div id="loadingScreen" class="screen show">
+          <p>Loading...</p>
+        </div>
+        <!-- The "welcome" screen -->
+        <div id="welcomeScreen" class="screen">
+          <div class="panel">
+            <h1>Welcome</h1>
+            <p>If you are viewing this on a VR-compatible device you will see a VR headset icon in the lower right. Click it to enter VR!</p>
+            <h2>Controls</h2>
+            <p><strong>Rotate:</strong> To rotate your view in VR, briefly tap either thumbstick to the left of right. (Or just turn your physical body!)
+            <p><strong>Teleport:</strong> To teleport to a different location in the space, push either thumbstick forward and hold. With the thumbstick pushed forward, point your controller to any part of the floor. Release the thumbstick to teleport to that location.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
