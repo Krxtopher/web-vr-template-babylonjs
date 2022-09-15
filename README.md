@@ -2,6 +2,8 @@
 
 *A Babylon.js template project you can use as the basis for your own WebXR-based VR projects.* 
 
+https://user-images.githubusercontent.com/1727699/190291889-2eb0b9b0-2b5a-4b15-8924-08e33d39d7ec.mp4
+
 ## Introduction
 
 This project was created with to main goals...
@@ -50,7 +52,7 @@ To start the preview server:
 2. `cd` to the root of the project.
 3. Run `npm run start`. 
 
-This will automatically build the project, launch the application in a browser, and begin monitoring for changes to the source code. As you make edits, the browser will automatically update to reflect your changes. (For HTML edits you will have to manually reload the browser.)
+This will build the project, launch the application in a browser, and begin monitoring for changes to the source code. As you make edits, the browser will automatically update to reflect your changes. (For HTML edits you will have to manually reload the browser.)
 
 When you are done using the preview server, enter **CTRL-C** in the terminal to stop the server.
 
